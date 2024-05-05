@@ -20,7 +20,6 @@ object checking{
             myArray(index) = value;
         }
         myArray = myArray.sortWith((a, b) => a < b);
-        print("the sorted array is: ");
-        myArray.foreach(a => print(s"${a} "));
+        print(s"the difference between largest and smallest value is: ${myArray(length-1) - myArray(0)}");
     }
 }
