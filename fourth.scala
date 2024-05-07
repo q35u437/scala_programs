@@ -21,6 +21,7 @@ object fourth{
                 if(maxi.abs > (array(i) + array(j)).abs){
                     ele1 = array(i);
                     ele2 = array(j);
+                    maxi = ele1 + ele2;
                 }
             }
         }
